@@ -11,4 +11,4 @@ Find SNP IDs for disease, then run modules
 
 ## Module 1
 
-This software does <x,y,z>.  It fits into the general scheme of this pipeline <here>.  
+This software generates sequences for SNP IDs of a certain disease, and then you can make blastdb.  It fits into the general scheme of this pipeline <here>.  
