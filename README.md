@@ -10,7 +10,7 @@ Here is what this pipeline does: We are developing a software *pipeline* to **id
 
 ## Usage
 
-Find SNP IDs for disease, then run modules
+# Step 1
 
 ## Module 1
 
