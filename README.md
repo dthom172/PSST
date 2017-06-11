@@ -10,7 +10,7 @@ Here is what this pipeline does: We are developing a software *pipeline* to **id
 
 ## Usage
 
-# Step 1
+### Step 1
 
 ## Module 1
 
