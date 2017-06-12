@@ -12,7 +12,7 @@ Here is what this pipeline does: We are developing a software *pipeline* to **id
 
 ### Step 1:
 
-Finds SNP IDs for top 10 diseases from a list of 100.
+This script finds SNP IDs for top 10 diseases from a list of 100 disease phenotypes that have the most associated SNPs in ClinVar that are asserted to be pathogenic.
 
 ### Step 2:
 
@@ -21,5 +21,9 @@ Extracts sequences from these SNP IDs, and also creates seperate fasta files for
 ### Step 3:
 
 Makeblastdb for each phenotype.
+
+### Step 4:
+
+Do Blast for any SRA you are interested in. 
 
 
