@@ -12,8 +12,14 @@ Here is what this pipeline does: We are developing a software *pipeline* to **id
 
 ### Step 1:
 
+Finds SNP IDs for top 10 diseases from a list of 100.
+
+### Step 2:
+
+Extracts sequences from these SNP IDs, and also creates seperate fasta files for all the diseases that contains both SNP ID and the respective sequence.
+
+### Step 3:
+
+Makeblastdb for each phenotype.
 
 
-## Module 1
-
-This software generates sequences for SNP IDs of a certain disease, and then you can make blastdb.  It fits into the general scheme of this pipeline <here>.  
