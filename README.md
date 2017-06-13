@@ -12,18 +12,18 @@ Here is what this pipeline does: We are developing a software *pipeline* to **id
 
 ### Step 1:
 
-This script finds SNP IDs for top 10 diseases from a list of 100 disease phenotypes that have the most associated SNPs in ClinVar that are asserted to be pathogenic.
+This script finds SNP IDs for top 10 diseases from a list of 100 disease phenotypes that have the SNPs associated with the disease and are asserted to be pathogenic.
 
 ### Step 2:
 
-Extracts sequences from these SNP IDs, and also creates seperate fasta files for all the diseases that contains both SNP ID and the respective sequence.
+Extract flanking sequences for these SNP IDs, and also create seperate fasta files for each disease containing both the SNP IDs and the respective sequences.
 
 ### Step 3:
 
-Makeblastdb for each phenotype.
+Use makeblastdb to generate a database for each phenotype.
 
 ### Step 4:
 
-Do Blast for any SRA you are interested in. 
+Perform alignment with magicblast using SRA accessions associated with disease phenotype. 
 
 
