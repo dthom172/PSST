@@ -37,5 +37,6 @@ Step 5:
 
 Performs alignment with magicblast using SRA accessions associated with disease phenotype.
 
+## Disease Clustering:
 
-
+Clustering disease types through the ClinVar database in various categories such as assorted metabolic diseases and breast cancer to see the relationship among human variations and phenotypes. 
